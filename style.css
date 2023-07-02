@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;;
+}
+
+.image_Logo {
+    height: 8rem;
+    width: 10rem;
+    border-radius: 10px;
+}
+.navigation ul{
+    display:flex;
+    list-style:none;
+
+}
+.navigation ul li{
+    margin:20px;
+}
+.nav-item:hover{
+   background-color: #06b5d3;
+}
+#resultList {
+    align-content: center;
+}
+
+#header {
+    padding: 30px 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+#search-button {
+    background: linear-gradient(to bottom, #77b1e1, #06b5d3);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease-in-out;
+}
+
+#search-button:hover {
+    background: linear-gradient(to bottom, #1cfff4, #ff4f52);
+}
+#card-container {
+display: flex;
+}
+ .title_heading {
+     font-family: "Arial", sans-serif;
+     font-size: 50px;
+     font-weight: bold;
+     color: #5fa0ad;
+     text-transform: uppercase;
+     text-align: center;
+     text-shadow: 2px 2px 4px rgba(89, 181, 179, 0.3);
+     margin-bottom: 20px;
+ }
+
+.card {
+    transition:all 0.4 s;
+    position: relative;
+ width: 20%;
+    margin-right: 10px;
+    height: 55vh;
+    border-radius: 5px;
+}
+.card :hover{
+    transform: scale(1.30);
+    background-color:rgb(212, 221, 223);
+
+    transition: .5s;
+
+}
+.read-more-button{ background: linear-gradient(to bottom, #77b1e1, #06b5d3);
+position: absolute;
+
+    bottom: 5px;
+   
+ border: none;
+ border-radius: 20px;
+ color: #fff;
+ cursor: pointer;
+ font-size: 14px;
+ font-weight: bold;
+ padding: 5px 10px;
+ box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+ transition: background 0.3s ease-in-out;
+ }
+
+.read-more-button:hover {
+     background: linear-gradient(to bottom, #1cfff4, #ff4f52);
+ }
+ .card-img{
+  
+    height: 25vh;
+ }
+
+.home-section {
+    height: 140vh;
+    align-items: center;
+}
+.about-section{
+    height: 100vh;
+        align-items: center;
+}
+.contact-section {
+    height: 100vh;
+    align-items: center;
+}
