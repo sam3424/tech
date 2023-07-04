@@ -96,8 +96,8 @@ $(document).ready(() => {
 	        return fetch(scienceURL).then((res) => res.json())
 	    }
 	    function renderArticles(category) {
-				//cardsContainer.empty()
-				infoContainer.append(APIdata[category].text)
+				
+				cardsContainer.append(APIdata[category].text)
 			}
 
 	$('#Technology_id').on('click', () => {
@@ -119,18 +119,6 @@ $(document).ready(() => {
    cardsContainer.empty()
 	renderArticles(APIdata.science)
 	})
-
-	//   cardShow()
-	// function cardShow(){
-	// 	const cardURL =
-	// 		//'https://gnews.io/api/v4/search?q=technology&&lang=en&&token=2c005be8de40753b9940ea41130ce571'
-
-	// 	fetch(cardURL)
-	// 		.then((response) => response.json())
-	// 		.then((data) => {
-	// 	renderArticles(data.articles)
-	// 	  })
-	//   }
   const cardsContainer = $('#card-container')
 	function renderArticles(data) {
 		
