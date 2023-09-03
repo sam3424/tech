@@ -5,13 +5,14 @@
 }
 
 .image_Logo {
-    height: 8rem;
-    width: 10rem;
-    border-radius: 10px;
+    padding-top: 0px;
+            height: 6rem;
+          
+            border-radius: 5px;     
 }
 #fixed_position {
     position: fixed;
-    top: 0;
+   top:0;
     z-index: 100;
 }
 .nav-item:hover{
@@ -22,7 +23,7 @@
 }
 
 #header {
-    padding: 30px 0;
+    padding: 15px 0;
     width: 100%;
     left: 0;
     top: 0;
@@ -134,11 +135,12 @@ left: 50%;
 .about-section{
     height: 100vh;
         align-items: center;
-        padding-top: 40px;
+        padding-top: 50px;
 }
 .contact-section {
     height: 100vh;
     align-items: center;
+    padding-top: 50px;
 }
 .footer {
     background-color:#c0e9f5;
